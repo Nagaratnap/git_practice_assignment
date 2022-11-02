@@ -1,12 +1,13 @@
-let num=18;
+
+let number=18;
 let factor=0;
-for(let i=0i<num;i++){
-if(num%i=0){
+for(let i=0i<=number;i++){
+if(number%i == 0){
 factor++;
 }
 }
 if(factor==2){
-console.log("Primr")
+console.log("Primr Number")
 }else{
 console.log("Not a Prime Number");
 }
